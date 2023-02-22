@@ -6,6 +6,6 @@
     "labelnoise": false,
     "bleeding": true,
     "external_dataset_used": false,
-    "gpu": false,
+    "gpu": true,
     "description": "Hybrid Demucs Baseline"
 }

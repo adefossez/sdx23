@@ -43,7 +43,8 @@ class Demucs:
         # with the proper task !!!
         self.separator = pretrained.get_model('17a36a86', repo=Path('./models'))
 
-        # copy to GPU
+        # we select automatically the device based on what is available,
+        # remember to change in aicrowd.json if you want to use the GPU or not.
         if torch.cuda.device_count():
             self.device = torch.device('cuda')
         else:
