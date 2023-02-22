@@ -1,12 +1,19 @@
 ![Banner image](https://images.aicrowd.com/uploads/ckeditor/pictures/1040/content_Desktop_Banner.png)
 
-# **[Music Demixing Challenge 2023 - Music Separation](https://www.aicrowd.com/challenges/sound-demixing-challenge-2023/problems/music-demixing-track-mdx-23)** - Starter Kit
+# **[Music Demixing Challenge 2023 - Music Separation](https://www.aicrowd.com/challenges/sound-demixing-challenge-2023/problems/music-demixing-track-mdx-23)** - Starter Kit - Demucs Edition
 [![Discord](https://img.shields.io/discord/565639094860775436.svg)](https://discord.gg/fNRrSvZkry)
 
-This repository is the Sound Demixing Challenge 2023 - Music Separation **Starter kit**! It contains:
+This repository is the Sound Demixing Challenge 2023 - Music Separation **Starter kit**, Demucs Edition ! It contains:
 *  **Documentation** on how to submit your models to the leaderboard
 *  **The procedure** for best practices and information on how we evaluate your agent, etc.
 *  **Starter code** for you to get started!
+
+
+This is specifically for the Hybrid Demucs pre-trained baselines. Checkout [my_submission/demucs.py](./my_submission/demucs.py) for more instructions.
+In order to train new models, checkout the [SDX23 training page for Demucs](https://github.com/facebookresearch/demucs/blob/rel/docs/sdx23.md)
+
+Hereafter is the original content from the [regular starter kit](https://gitlab.aicrowd.com/aicrowd/challenges/sound-demixing-challenge-2023/sdx-2023-music-demixing-track-starter-kit).
+
 
 Quick Links:
 
