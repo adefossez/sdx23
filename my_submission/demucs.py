@@ -11,6 +11,7 @@
 # If you trained your model with the Demucs codebase, make sure to export
 # your model, using e.g. `python -m tools.export SIG`. Then copy the files
 # `release_models/SIG.th` into this repo.
+# Update the SIG in the get_model hereafter.
 #
 # Making submission using demucs:
 # 2. Run this file locally with `python evaluate_locally.py`.
@@ -38,7 +39,9 @@ class Demucs:
     def __init__(self):
         # 053b5e8c is for labelnoise
         # 17a36a86 is for bleeding
-        self.separator = pretrained.get_model('053b5e8c', repo=Path('./models'))
+        # If you participate in both competitions do not forget to update aicrowd.json 
+        # with the proper task !!!
+        self.separator = pretrained.get_model('17a36a86', repo=Path('./models'))
 
         # copy to GPU
         if torch.cuda.device_count():

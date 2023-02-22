@@ -3,8 +3,8 @@
     "authors": [
       "defossez"
     ],
-    "labelnoise": true,
-    "bleeding": false,
+    "labelnoise": false,
+    "bleeding": true,
     "external_dataset_used": false,
     "gpu": false,
     "description": "Hybrid Demucs Baseline"
