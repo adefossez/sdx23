@@ -13,6 +13,8 @@
 # `release_models/SIG.th` into this repo.
 # Update the SIG in the get_model hereafter.
 #
+# /!\ Remember to update the aicrowd.json to match your use case.
+#
 # Making submission using demucs:
 # 2. Run this file locally with `python evaluate_locally.py`.
 # 4. Submit your code using git-lfs
@@ -21,6 +23,12 @@
 #    #> git add .gitattributes
 #    #> git add models
 #    #> git add -u .
+
+# Follow the instructions in the docs/submission.md file.
+# Once the repo is properly setup, you can easily push new submissions with
+# > git add models; git add -u .
+# > git commit -m "commit message"
+# > name="submission name here" ; git tag -am "submission-$name" submission-$name; git push aicrowd submission-$name
 
 
 from pathlib import Path
