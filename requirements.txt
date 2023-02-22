@@ -6,4 +6,4 @@ openunmix>=1.2.0
 scipy
 norbert
 asteroid
-demucs
+demucs>=4.0.0
