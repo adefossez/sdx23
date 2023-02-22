@@ -19,6 +19,8 @@
 #    #> git lfs track "*.th"
 #    #> git add .gitattributes
 #    #> git add models
+#    #> git add -u .
+
 
 from pathlib import Path
 import time
@@ -28,11 +30,14 @@ from demucs.apply import apply_model
 from demucs.audio import convert_audio
 import torch
 
+
 class Demucs:
     """
     Demucs model for music demixing.
     """
     def __init__(self):
+        # 053b5e8c is for labelnoise
+        # 17a36a86 is for bleeding
         self.separator = pretrained.get_model('053b5e8c', repo=Path('./models'))
 
         # copy to GPU
@@ -51,7 +56,7 @@ class Demucs:
     def raise_aicrowd_error(self, msg):
         """ Will be used by the evaluator to provide logs, DO NOT CHANGE """
         raise NameError(msg)
-    
+
     def separate_music_file(self, mixed_sound_array, sample_rate):
         """
         Implements the sound separation for a single sound file
