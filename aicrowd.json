@@ -1,0 +1,11 @@
+{
+    "challenge_id": "music-demixing-track-mdx-23",
+    "authors": [
+      "defossez"
+    ],
+    "labelnoise": true,
+    "bleeding": false,
+    "external_dataset_used": false,
+    "gpu": false,
+    "description": "Hybrid Demucs Baseline"
+}

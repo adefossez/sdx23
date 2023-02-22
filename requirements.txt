@@ -1,0 +1,9 @@
+numpy # Don't remove
+soundfile # Don't remove
+museval
+mir_eval
+openunmix>=1.2.0
+scipy
+norbert
+asteroid
+demucs

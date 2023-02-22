@@ -1,0 +1,3 @@
+[submodule "models/sigsep_open-unmix-pytorch_master"]
+	path = models/sigsep_open-unmix-pytorch_master
+	url = https://github.com/sigsep/open-unmix-pytorch/
