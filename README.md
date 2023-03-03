@@ -12,7 +12,7 @@ This repository is the Sound Demixing Challenge 2023 - Music Separation **Starte
 This is specifically for the Hybrid Demucs pre-trained baselines. Checkout [my_submission/demucs.py](./my_submission/demucs.py) for more instructions.
 In order to train new models, checkout the [SDX23 training page for Demucs](https://github.com/facebookresearch/demucs/blob/main/docs/sdx23.md)
 
-**IMPORTANT DO NOT CLONE THIS REPO: ** it uses git-lfs and I am running out of bandwidth on the free tier, please clone from the repo hosted on AICrowd:
+**IMPORTANT DO NOT CLONE FROM GITHUB:** it uses git-lfs and I am running out of bandwidth on the free tier, please clone from the repo hosted on AICrowd:
 
 ```git clone http://gitlab.aicrowd.com/defossez/sdx-2023-music-demixing-track-starter-kit.git```
 
